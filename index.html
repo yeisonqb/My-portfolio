@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Portfolio, 3D, Front End">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="Stylesheet" href="css/index.css"/>
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="row aling-items-center justify-content-between">
+                    <div class="col-auto">
+                        <h1>My Portfolio</h1> 
+                    </div>
+                    <div class="col-auto d-flex  aling-items-center">
+                        <ul class="main-menu">
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">Biography</a></li>
+                            <li><a href="#">Skill</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                        <div class="login" id="modalBtnCont">
+                            <a href="#loginModal" class="btn btn-outline primary" data-toggle="modal">Log In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="Banner"></section>
+        <section id="Galery">
+            <div class="container">
+                <h2 class="section-title">PROJECTS</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <aside>
+                            <div class="widget widget-about">
+                                <h3 class="widget-title">ABOUT ME</h3>
+                                <div class="widget-content">
+                                    <img src="./img/ft-avatar-1.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est ex porro laudantium, quibusdam voluptas.</p>
+                                </div>
+                            </div>
+    
+                            <div class="widget widget-categories">
+                                <h3 class="widget-title">CATEGORIES</h3>
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a href="">Front End</a></li>
+                                        <li><a href="">Models 3d</a></li>
+                                        <li><a href="">Games</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </aside>
+                        <div id="btnAddPhoto"></div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="galery-item">
+                                    <img src="./img/Bsr-inbox.JPG" alt="">
+                                    <div class="galery-item-info">
+                                        <h4>BSR</h4>
+                                        <p>19/03/2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="galery-item">
+                                    <img src="./img/Pro1.JPG" alt="">
+                                    <div class="galery-item-info">
+                                        <h4>BSR</h4>
+                                        <p>19/03/2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="galery-item">
+                                    <img src="./img/Pro2.JPG" alt="">
+                                    <div class="galery-item-info">
+                                        <h4>BSR</h4>
+                                        <p>19/03/2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="galery-item">
+                                    <img src="./img/Pro3.JPG" alt="">
+                                    <div class="galery-item-info">
+                                        <h4>BSR</h4>
+                                        <p>19/03/2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="galery-item">
+                                    <img src="./img/Pro4.JPG" alt="">
+                                    <div class="galery-item-info">
+                                        <h4>BSR</h4>
+                                        <p>19/03/2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="galery-item">
+                                    <img src="./img/Bsr-inbox.JPG" alt="">
+                                    <div class="galery-item-info">
+                                        <h4>BSR</h4>
+                                        <p>19/03/2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Todos los derechos reservados</p>
+    </footer>
+
+    <div class="modal fade portfolio-modal" id="loginModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" >Log In</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                  <div class="form-group">
+                      <input type="text" name="username" id="username" placeholder="Nombre Usuario">
+                      <input type="password" name="password" id="password" placeholder="Contraseña">
+                  </div>
+                  <button type="button" class="btn btn-primary btn-block"  data-dismiss="modal" id="loginButton">Log In</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./node_modules/systemjs/dist/system.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        System.config({
+            baseURL: '/',
+            defaultJSExtensions: true,
+            map:{
+                'jquery': 'node_modulesr/jquery/dist/jquery.js'
+            }
+        });
+
+        System.import('js/main.js');
+    </script>
+   
+
+
+</body>
+</html>

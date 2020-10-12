@@ -1,0 +1,20 @@
+{
+  "name": "p_certificado_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.2",
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "systemjs": "^0.19.41"
+  }
+}
